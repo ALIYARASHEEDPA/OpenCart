@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-15T12:13:56 IST" name="Suite" finished-at="2023-06-15T12:14:16 IST" duration-ms="19667">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistrationTest.test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@dd8ba08]" name="test_registrationaccount" class="testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistrationTest.test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@dd8ba08]" name="test_registrationaccount" class="testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-06-15T12:13:56 IST" name="Test" finished-at="2023-06-15T12:14:16 IST" duration-ms="19667">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@dd8ba08]" started-at="2023-06-15T12:13:57 IST" name="setup" finished-at="2023-06-15T12:14:09 IST" duration-ms="12441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_registrationaccount()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@dd8ba08]" started-at="2023-06-15T12:14:09 IST" name="test_registrationaccount" finished-at="2023-06-15T12:14:16 IST" duration-ms="6302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_registrationaccount -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@dd8ba08]" started-at="2023-06-15T12:14:16 IST" name="logout" finished-at="2023-06-15T12:14:16 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
